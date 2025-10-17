@@ -1,0 +1,4 @@
+/* CSS em um arquivo externo possibilita utilizar os mesmos designs em várias folhas, não polui e facilita a organização*/
+p{
+    background-color: antiquewhite;
+}
