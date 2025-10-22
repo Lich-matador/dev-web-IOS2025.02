@@ -1,0 +1,21 @@
+/* Para usar uma fonte da internet podemos usar o @import do site especifiacdo. no exemplo abaiixo utilizamos o site Google Fonts para importar e utilizar uma nova font-family */
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+    /* text-shadow:
+    1° valor: decsolamento horizontal
+    2° valor: deslocamento vertica
+    3° valor: desfoque
+    4° valor: cor de sombra */
+    text-shadow: 10px 20px 5px green;
+}
+p{
+    font-family: "Bitcount Grid Single", system-ui;
+    text-align: center;
+    width: 600px;
+}  
