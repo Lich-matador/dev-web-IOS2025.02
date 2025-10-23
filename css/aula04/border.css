@@ -1,0 +1,17 @@
+h1{
+    /* border-width determina o tamanho da borda */
+    border-width: 10px;
+    /* border-color dertermina a cor da borda */
+    border-color: blue;
+    /* border-style determina o formato da borda */
+    border-style: ridge;
+}
+
+/* Podemos criar bordar de maneira abreviada utilizando apenas a  propriedade border.
+border recebe 3 valores, sendo eles:
+tamanho (10px)
+tipo (double)
+cor (black) */
+p{
+    border: 10px black double;
+}
